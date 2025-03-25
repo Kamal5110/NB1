@@ -1,4 +1,5 @@
 import { HashRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -14,5 +15,7 @@ if (root) {
     </HashRouter>
   );
 }
-
+<Router>
+  <App />
+</Router>
 createRoot(document.getElementById("root")!).render(<App />);
