@@ -33,6 +33,7 @@ const Contact = () => {
                       123 Business Avenue, Suite 200<br />
                       New York, NY 10001
                     </p>
+                    <h4 className="font-bold text-[var(--primary)] mb-1">Our Location</h4>
                     <p className="text-[var(--darkgray)]">
                       Office No. - 2, 2B Darmanagar, Nr. BOB Bank<br />
                       Sabarmati, Ahmedabad, Gujarat - 380005
