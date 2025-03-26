@@ -15,14 +15,18 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
+          
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center">
-              <div className="w-48 h-14 bg-[var(--primary)] rounded flex items-center justify-center text-white font-poppins font-bold">
-                Nishav Business Solutions
-              </div>
-            </Link>
+           <Link href="/" className="flex items-center">
+            <img 
+                src="/attached_assets/Nishav_Business_Solutions.png" 
+                alt="Nishav Business Solutions" 
+                className="w-48 h-14 object-contain"
+            />
+           </Link>
           </div>
+          
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
